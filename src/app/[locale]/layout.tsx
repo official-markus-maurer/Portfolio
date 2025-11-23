@@ -22,6 +22,7 @@ export default async function LocaleLayout({ children, params }: any) {
             <Link href={`/${p.locale}/projects`} className="hover:opacity-80">{m.projectsTitle}</Link>
             <Link href={`/${p.locale}/#skills`} className="hover:opacity-80">{m.skillsTitle}</Link>
             <Link href={`/${p.locale}/contact`} className="hover:opacity-80">{m.contactNav}</Link>
+            <Link href={`/${p.locale}/cv`} className="hover:opacity-80">{m.resumeNav || "Resume"}</Link>
             <LanguageSwitcher />
             <ThemeToggle />
           </nav>

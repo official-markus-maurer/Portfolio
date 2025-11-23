@@ -24,8 +24,9 @@ export default function OpengraphImage() {
             gap: 8,
           }}
         >
-          <div style={{ fontSize: 64, fontWeight: 800, color: "white" }}>Helpdesk Portfolio</div>
-          <div style={{ fontSize: 28, color: "#cbd5e1" }}>Projects and Skills</div>
+          <div style={{ fontSize: 56, fontWeight: 800, color: "white" }}>Markus Maurer</div>
+          <div style={{ fontSize: 40, fontWeight: 700, color: "white" }}>Helpdesk Portfolio</div>
+          <div style={{ fontSize: 26, color: "#cbd5e1" }}>AD/M365/Intune • VPN • PowerShell</div>
         </div>
       </div>
     ),

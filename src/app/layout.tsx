@@ -13,25 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "Projects and skills",
-  metadataBase: new URL("https://example.com"),
+  title: "Markus Maurer — Helpdesk Portfolio",
+  description: "AD/M365/Intune, VPN, endpoint troubleshooting and PowerShell automation.",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://www.maurer-internet.de"),
   openGraph: {
-    title: "Portfolio",
-    description: "Projects and skills",
-    url: "https://example.com",
-    siteName: "Portfolio",
-    images: [
-      { url: "/next.svg", width: 1200, height: 630, alt: "Portfolio" },
-    ],
+    title: "Markus Maurer — Helpdesk Portfolio",
+    description: "AD/M365/Intune, VPN, endpoint troubleshooting and PowerShell automation.",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.maurer-internet.de",
+    siteName: "Markus Maurer Portfolio",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Portfolio" }],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Portfolio",
-    description: "Projects and skills",
-    images: ["/next.svg"],
+    title: "Markus Maurer — Helpdesk Portfolio",
+    description: "AD/M365/Intune, VPN, endpoint troubleshooting and PowerShell automation.",
+    images: ["/twitter-image"],
   },
   icons: { icon: "/favicon.ico" },
 };

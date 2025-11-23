@@ -13,12 +13,14 @@ export type Messages = {
   allLabel: string;
   contactNav: string;
   skipToContent: string;
+  resumeNav?: string;
+  resumeTitle?: string;
 };
 
 export const messages: Record<string, Messages> = {
   en: {
     title: "Helpdesk Portfolio",
-    subtitle: "Fast, clean, and professional. Explore projects and skills aligned with helpdesk roles.",
+    subtitle: "Helpdesk specialist in AD/M365/Intune, VPN and endpoint troubleshooting, with PowerShell automation and clear communication that reduces resolution time and raises CSAT.",
     viewProjects: "View Projects",
     viewSkills: "View Skills",
     skillsTitle: "Skills",
@@ -30,6 +32,8 @@ export const messages: Record<string, Messages> = {
     allLabel: "All",
     contactNav: "Contact",
     skipToContent: "Skip to content",
+    resumeNav: "CV",
+    resumeTitle: "Resume",
     skillGroups: [
       {
         title: "Support",
@@ -81,7 +85,7 @@ export const messages: Record<string, Messages> = {
   },
   de: {
     title: "Helpdesk‑Portfolio",
-    subtitle: "Schnell, sauber und professionell. Entdecken Sie Projekte und Fähigkeiten für Helpdesk‑Rollen.",
+    subtitle: "Helpdesk‑Spezialist mit Praxis in AD/M365/Intune, VPN und Endpoint‑Troubleshooting, PowerShell‑Automatisierung und klarer Kommunikation – schnellere Lösungen, höhere Zufriedenheit.",
     viewProjects: "Projekte ansehen",
     viewSkills: "Fähigkeiten anzeigen",
     skillsTitle: "Fähigkeiten",
@@ -93,6 +97,8 @@ export const messages: Record<string, Messages> = {
     allLabel: "Alle",
     contactNav: "Kontakt",
     skipToContent: "Zum Inhalt springen",
+    resumeNav: "Lebenslauf",
+    resumeTitle: "Lebenslauf",
     skillGroups: [
       {
         title: "Support",
