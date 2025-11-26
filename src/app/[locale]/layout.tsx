@@ -16,7 +16,7 @@ export default async function LocaleLayout({ children, params }: any) {
     <div>
       <a href="#content" className="sr-only focus:not-sr-only focus:absolute focus:left-6 focus:top-4 focus:rounded-md focus:bg-black focus:px-3 focus:py-2 focus:text-white dark:focus:bg-white dark:focus:text-black">{m.skipToContent}</a>
       <header className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 sm:py-4">
           <Link href={`/${p.locale}`} className="text-lg font-semibold">Portfolio</Link>
           <nav className="flex items-center gap-6 text-sm">
             <Link href={`/${p.locale}/projects`} className="hover:opacity-80">{m.projectsTitle}</Link>
@@ -28,7 +28,7 @@ export default async function LocaleLayout({ children, params }: any) {
           </nav>
         </div>
       </header>
-      <main id="content" className="mx-auto max-w-6xl px-6 py-10">{children}</main>
+      <main id="content" className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-10">{children}</main>
     </div>
   );
 }

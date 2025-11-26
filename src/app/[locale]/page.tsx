@@ -36,7 +36,7 @@ export default async function Home({ params }: any) {
   const langBullets = Array.from(new Set([...langExtras]));
   const toolBullets = Array.from(new Set([...toolExtras]));
   return (
-    <div className="space-y-10">
+    <div className="space-y-8 sm:space-y-10">
       <Hero
         title={m.title}
         subtitle={m.subtitle}
@@ -53,7 +53,7 @@ export default async function Home({ params }: any) {
         ]}
         stack={{ languages: langBullets, web: webBullets, tools: toolBullets, topLangs, primaryWeb: ["Next.js", "Laravel", "Tailwind CSS"] }}
       />
-      <Card className="p-8">
+      <Card className="p-6 sm:p-8">
         <h2 className="text-xl font-bold">{m.contactTitle}</h2>
         <p className="mt-2 text-zinc-600 dark:text-zinc-400">{m.contactText}</p>
         <div className="mt-4 flex gap-4">
