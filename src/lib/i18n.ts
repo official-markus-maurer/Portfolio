@@ -19,8 +19,8 @@ export type Messages = {
 
 export const messages: Record<string, Messages> = {
   en: {
-    title: "Helpdesk Portfolio",
-    subtitle: "Helpdesk specialist in AD/M365/Intune, VPN and endpoint troubleshooting, with PowerShell automation and clear communication that reduces resolution time and raises CSAT.",
+    title: "IT Portfolio",
+    subtitle: "Helpdesk specialist in Active Directory/M365, VPN and endpoint troubleshooting, with PowerShell automation and clear communication that reduces resolution time and raises CSAT.",
     viewProjects: "View Projects",
     viewSkills: "View Skills",
     skillsTitle: "Skills",
@@ -39,7 +39,6 @@ export const messages: Record<string, Messages> = {
         title: "Support",
         bullets: [
           "Windows 10/11 issue resolution and user onboarding",
-          "Microsoft 365 account support and email troubleshooting",
           "Ticket handling with clear SLAs and CSAT focus",
           "Remote support using industry tools",
           "Clear communication to non‑technical users",
@@ -50,7 +49,6 @@ export const messages: Record<string, Messages> = {
         bullets: [
           "Active Directory account lifecycle and group management",
           "Password resets, MFA enrollment and access requests",
-          "Azure AD and Intune integrations",
           "BitLocker and device encryption policies",
         ],
       },
@@ -58,7 +56,6 @@ export const messages: Record<string, Messages> = {
         title: "Endpoint",
         bullets: [
           "Imaging, device setup and driver issues",
-          "Intune device compliance and profiles",
           "Printer, VPN and remote access support",
           "GPO management and policy troubleshooting",
         ],
@@ -84,8 +81,8 @@ export const messages: Record<string, Messages> = {
   ],
   },
   de: {
-    title: "Helpdesk‑Portfolio",
-    subtitle: "Helpdesk‑Spezialist mit Praxis in AD/M365/Intune, VPN und Endpoint‑Troubleshooting, PowerShell‑Automatisierung und klarer Kommunikation – schnellere Lösungen, höhere Zufriedenheit.",
+    title: "IT‑Portfolio",
+    subtitle: "Helpdesk‑Spezialist mit Praxis in Active Directory/M365, VPN und Endpoint‑Troubleshooting, PowerShell‑Automatisierung und klarer Kommunikation – schnellere Lösungen, höhere Zufriedenheit.",
     viewProjects: "Projekte ansehen",
     viewSkills: "Fähigkeiten anzeigen",
     skillsTitle: "Fähigkeiten",
@@ -104,7 +101,6 @@ export const messages: Record<string, Messages> = {
         title: "Support",
         bullets: [
           "Windows 10/11‑Problemlösung und Benutzer‑Onboarding",
-          "Microsoft 365‑Support und E‑Mail‑Fehlerbehebung",
           "Ticketbearbeitung mit klaren SLAs und CSAT‑Fokus",
           "Remote‑Support mit gängigen Tools",
           "Verständliche Kommunikation für Nicht‑Techniker",
@@ -115,7 +111,6 @@ export const messages: Record<string, Messages> = {
         bullets: [
           "Active Directory‑Kontolebenszyklus und Gruppenverwaltung",
           "Passwort‑Resets, MFA‑Registrierung und Zugriffsanfragen",
-          "Azure AD‑ und Intune‑Integrationen",
           "BitLocker und Gerätekryptografie‑Richtlinien",
         ],
       },
@@ -123,7 +118,6 @@ export const messages: Record<string, Messages> = {
         title: "Endpoint",
         bullets: [
           "Imaging, Geräteeinrichtung und Treiberprobleme",
-          "Intune‑Gerätecompliance und Profile",
           "Drucker, VPN und Remote‑Zugriff",
           "GPO‑Verwaltung und Richtlinien‑Troubleshooting",
         ],

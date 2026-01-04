@@ -18,7 +18,7 @@ export default function ResumePage() {
         <ul className="list-disc pl-5">
           <li>Operating systems: Windows 11/10/7/Vista/XP, Windows Server 2008–2022, macOS, basic Linux, Azure</li>
           <li>Software: ServiceNow, 8x8, Duo, AirWatch, Intune, SharePoint, OneDrive, Microsoft 365, Outlook, Adobe, Cisco AnyConnect, Zoom, Microsoft Teams, LogMeIn, GoToAssist, pfSense, Wireshark, FortiGate, Nessus, GFI FaxMaker</li>
-          <li>Helpdesk: Remote desktop support, network printer setup, AD user/group lifecycle, GPO management, MDM, ticketing, Duo security, BitLocker, Exchange, Microsoft 365 Admin Center, TCP/IP, DNS, DHCP, VPN</li>
+          <li>Helpdesk: Remote desktop support, network printer setup, AD user/group lifecycle, GPO management, ticketing, Duo security, BitLocker, Exchange, TCP/IP, DNS, DHCP, VPN</li>
         </ul>
         <div className="mt-4 font-semibold">Professional Experience</div>
         <div className="mt-2">Process Associate / Helpdesk Agent / Online Marketing • Apr 2021 – Present</div>
@@ -27,7 +27,6 @@ export default function ResumePage() {
           <li>Performed OS and software deployment/refresh and device configuration</li>
           <li>Managed AD accounts and group policies; enforced encryption and VPN access</li>
           <li>Operated ServiceNow ticketing with clear SLAs; escalated effectively</li>
-          <li>Maintained MDM (Intune/AirWatch) compliance and device profiles</li>
         </ul>
         <div className="mt-4 font-semibold">Education</div>
         <ul className="list-disc pl-5">

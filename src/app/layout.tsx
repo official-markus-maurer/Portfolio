@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Markus Maurer — Helpdesk Portfolio",
+  title: "Markus Maurer — IT Portfolio",
   description: "AD/M365/Intune, VPN, endpoint troubleshooting and PowerShell automation.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://www.maurer-internet.de"),
   openGraph: {
-    title: "Markus Maurer — Helpdesk Portfolio",
+    title: "Markus Maurer — IT Portfolio",
     description: "AD/M365/Intune, VPN, endpoint troubleshooting and PowerShell automation.",
     url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.maurer-internet.de",
     siteName: "Markus Maurer Portfolio",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Markus Maurer — Helpdesk Portfolio",
+    title: "Markus Maurer — IT Portfolio",
     description: "AD/M365/Intune, VPN, endpoint troubleshooting and PowerShell automation.",
     images: ["/twitter-image"],
   },
@@ -57,7 +57,6 @@ export default function RootLayout({
             <span>© {new Date().getFullYear()} Portfolio</span>
             <div className="flex items-center gap-4">
               <a className="hover:opacity-80" href="https://github.com/RyuuSlayer" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a className="hover:opacity-80" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </div>
         </footer>
